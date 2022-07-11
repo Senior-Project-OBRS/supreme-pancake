@@ -8,7 +8,10 @@ Step2: `$ git commit -m "comment something"`<br/>
 Step3: `$ git push`<br/> 
 
 # Usage
-`$ meteor run --settings settings.json`
+Step1: create settings.json in the root directory with the following parameters <br/>
+Step2: `$ meteor run --settings settings.json`<br/>
+
+![ezcv logo](https://github.com/Senior-Project-OBRS/supreme-pancake/blob/6a0bef84261faace66324aad195d397241570901/Capture.JPG)
 
 # Run Testing
 - full-app tests `$ meteor test --full-app --driver-package meteortesting:mocha --port 3100`
