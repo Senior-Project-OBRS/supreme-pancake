@@ -1,0 +1,46 @@
+@media screen and (max-width: 2000px) {
+    
+  .me-auto {
+    display:none;
+  }
+  .headText {
+      font-size:35px;
+      color: rgb(190, 0, 0) ; 
+      font-family: 'Sriracha', cursive;
+      font-weight: 1000;
+    }
+    
+    
+    .usertext {
+        font-size: 20px;
+        position: absolute;
+        left: 1200px;
+        bottom:45px;
+    }
+    
+    .linkText { 
+      font-family: 'TH sarabun New';
+      font-size:30px;
+      color: rgb(0, 0, 0) ; 
+      
+    } 
+    .linkText:hover{ 
+      color: rgb(184, 6, 6) ; 
+    
+    } 
+    
+}
+
+@media screen and (max-width: 600px) {
+    .linkText {
+      display:none;
+    }
+    .me-auto {
+      display:inline;
+    }
+  
+    }
+
+
+    
+    

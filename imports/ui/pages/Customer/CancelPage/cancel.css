@@ -1,0 +1,129 @@
+@media screen and (max-width: 2000px) {
+
+    .headcancel {
+      font-size:25px;
+      font-family: 'TH Sarabun new';
+    
+    }
+
+    .cancel .card {
+      width:50%;
+      left: 5%;
+      bottom:-40px;
+      padding: 5px 5px;
+      
+    }
+    .cancel .bankselect {
+        width:35%;
+        font-family: 'TH Sarabun new';
+        font-size: 20px;
+    }
+    .cancel input {
+        align-items:center;
+        width:40%;
+    }
+
+    .cancel .ratiocancel {
+        background: #ffffff;
+    }
+
+    .ratiocancel [type=radio] {
+      background: #1501f1;
+      z-index: 2;
+    }
+    
+    .cancel .button {
+        left:50%;
+        width:30%;
+        padding: 5px 5px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: rgb(255, 255, 255);
+        background-color: #DC3545;
+        border: none;
+        border-radius: 2px;
+        font-family: 'TH Sarabun New';
+       
+        
+      }
+    
+      
+    
+      .cancel .button:hover {background-color: #e84545}
+    
+    .cancel .button:active {
+      background-color: #fb0400;
+      transform: translateY(4px);
+    }
+    
+   
+    
+   }
+   
+   @media screen and (max-width: 600px) {
+  
+    body {
+    background: rgb(255, 255, 255);
+    }
+    
+    .book .card {
+      width:400%;
+      left: 0%;
+      padding: 5px 5px;
+      
+    }
+    .book .card .display {
+      font-family: 'Angsana New';
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .book {
+      width:25%;
+      left: 20%;
+      top:10%;
+    }
+    
+    
+    .book .button {
+        padding: 5px 5px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: rgb(255, 255, 255);
+        background-color: #DC3545;
+        border: none;
+        border-radius: 2px;
+        font-family: 'TH Sarabun New';
+        
+      }
+    
+      .book .card {
+        padding: 15px 15px 15px 15px;
+        border: 1px solid rgb(187, 179, 179);
+        border-radius: 2px;
+        background-color: rgb(255, 255, 255);
+        position:relative;
+        font-family: 'Angsana New';
+        font-size: 20px;
+      }
+    
+      .book .card .display {
+        font-family: 'Angsana New';
+        font-size: 30px;
+        font-weight: bold;
+      }
+    
+      .book .button:hover {background-color: #e84545}
+    
+    .book .button:active {
+      background-color: #fb0400;
+      transform: translateY(4px);
+    }
+    
+   
+    
+   }
+   

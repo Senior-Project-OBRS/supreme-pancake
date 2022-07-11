@@ -1,0 +1,77 @@
+@media screen and (max-width: 2000px) {
+
+.changebus .card {
+  
+    width:35%;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    font-size: 35px;
+    left:1%;
+    bottom:-20px;  
+  }
+  
+  .changebus .button {
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;;
+    
+  }
+  
+  
+  .changebus .button:hover {background-color: #ec4242f2}
+  
+  .changebus .button:active {
+    background-color: #ff0000;
+    transform: translateY(4px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .changebus .card {
+    
+      width:90%;
+      padding: 15px 15px 15px 15px;
+      border: 1px solid rgb(187, 179, 179);
+      border-radius: 2px;
+      background-color: rgb(255, 255, 255);
+      position:relative;
+      font-family: 'Angsana New';
+      font-size: 20px;
+      left:1%;
+      bottom:-20px;  
+    }
+    
+    .changebus button {
+      padding: 10px 10px;
+      font-size: 18px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: rgb(255, 255, 255);
+      background-color: #DC3545;
+      border: none;
+      border-radius: 2px;
+      display: inline-block;;
+      
+    }
+    
+    
+    .changebus .button:hover {background-color: #ec4242f2}
+    
+    .changebus .button:active {
+      background-color: #ff0000;
+      transform: translateY(4px);
+    }
+  }

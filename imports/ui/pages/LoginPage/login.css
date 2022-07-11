@@ -1,0 +1,183 @@
+@media screen and (max-width: 2000px) {
+
+.login .card {
+    width:30%;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    font-size: 30px;
+    left:34%;
+    bottom:-20px;  
+  }
+
+  .login.card input {
+    float: right;
+  }
+
+  .login h1 {
+      text-align: center;
+  }
+  .signin .button {
+    width: 40%;
+    position: relative;
+    left:30%;
+    padding: 5px 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    font-family: 'TH Sarabun New';
+    
+  }
+  .signing .button {
+    width: 40%;
+    position: relative;
+    left:30%;
+    padding: 5px 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    font-family: 'TH Sarabun New';
+    
+  }
+  .signinf .button {
+    width: 40%;
+    position: relative;
+    left:30%;
+    padding: 5px 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    font-family: 'TH Sarabun New';
+    
+  }
+
+  .headlogin {
+    font-family: 'TH sarabun New';
+    position: relative;
+    left:45%;
+    bottom:-20px;
+  }
+  .login .button:hover {background-color: #e84545}
+  
+  .login .button:active {
+    background-color: #fb0400;
+    transform: translateY(4px);
+  }
+}
+@media screen and (max-width: 600px) {
+
+  .login .card {
+      width:90%;
+      padding: 15px 15px 15px 15px;
+      border: 1px solid rgb(187, 179, 179);
+      border-radius: 2px;
+      background-color: rgb(255, 255, 255);
+      position:relative;
+      font-family: 'Angsana New';
+      font-size: 30px;
+      left:5%;
+      bottom:-20px;  
+    }
+  
+    .login.card input {
+      float: right;
+    }
+  
+    .login h1 {
+        text-align: center;
+    }
+    .signin .button {
+      width: 55%;
+      position: relative;
+      left:25%;
+      padding: 5px 5px;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: rgb(255, 255, 255);
+      background-color: #DC3545;
+      border: none;
+      border-radius: 2px;
+      font-family: 'TH Sarabun New';
+      
+    }
+    .signing .button {
+      width: 55%;
+      position: relative;
+      left:25%;
+      padding: 5px 5px;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: rgb(255, 255, 255);
+      background-color: #DC3545;
+      border: none;
+      border-radius: 2px;
+      font-family: 'TH Sarabun New';
+      
+    }
+    .signinf .button {
+      width: 55%;
+      position: relative;
+      left:25%;
+      padding: 5px 5px;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: rgb(255, 255, 255);
+      background-color: #DC3545;
+      border: none;
+      border-radius: 2px;
+      font-family: 'TH Sarabun New';
+      
+    }
+  
+    .headlogin {
+      font-family: 'TH sarabun New';
+      position: relative;
+      left:40%;
+      bottom:-20px;
+    }
+    .login .button:hover {background-color: #e84545}
+    
+    .login .button:active {
+      background-color: #fb0400;
+      transform: translateY(4px);
+    }
+  }
+
+  .github-btn {
+    border: 1px solid #e1e5f0;
+    background-color: #fff;
+    width: 245px;
+    margin: 0 auto 16px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .github-btn > div {
+    margin-left: 4px;
+  }

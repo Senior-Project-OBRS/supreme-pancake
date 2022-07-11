@@ -1,0 +1,203 @@
+@media screen and (max-width: 2000px) {
+  .popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 40%;
+    padding: 0px;
+  }
+  .popup-arrow {
+    color: rgb(255, 255, 255);
+  }
+  [role='tooltip'].popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }
+
+
+  .headcheck  {
+    top:15%;
+    left:32%;
+    position: absolute;
+    
+}
+
+
+.checkin .card {
+  
+    width:300%;
+    padding:50px 50px 50px 50px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    left:10%;
+    bottom:-80px;  
+  }
+  .checkindata {
+    
+    top:35%;
+    left:10%;
+    position: absolute;
+    width:80%;
+  
+  }
+  .checkindata .card {
+  
+    font-size:20px;
+    padding:20px 20px 20px 20px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    
+
+    
+  }
+  .exit .button {
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    left:280px;
+    top:0px;
+  }
+  .popup .button {
+    width:80%;
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    left:40px;
+    top:300px;
+  }
+  
+  
+  .popup .button:hover {background-color: #ec4242f2}
+  
+  .popup .button:active {
+    background-color: #ff0000;
+    transform: translateY(4px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 80%;
+    padding: 0px;
+  }
+  .popup-arrow {
+    color: rgb(255, 255, 255);
+  }
+  [role='tooltip'].popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }
+
+
+  .headcheck  {
+    top:12%;
+    left:0%;
+    position: absolute;
+    
+}
+
+
+.checkin .card {
+  
+    width:300%;
+    padding:50px 50px 50px 50px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    left:10%;
+    bottom:-80px;  
+  }
+  .checkindata {
+    
+    top:35%;
+    left:10%;
+    position: absolute;
+    width:80%;
+  
+  }
+  .checkindata .card {
+  
+    font-size:20px;
+    padding:20px 20px 20px 20px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    
+
+    
+  }
+  .exit .button {
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    left:280px;
+    top:0px;
+  }
+  .popup .button {
+    width:80%;
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    left:40px;
+    top:300px;
+  }
+  
+  
+  .popup .button:hover {background-color: #ec4242f2}
+  
+  .popup .button:active {
+    background-color: #ff0000;
+    transform: translateY(4px);
+  }
+}

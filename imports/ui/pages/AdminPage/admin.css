@@ -1,0 +1,92 @@
+
+@media screen and (max-width: 2000px) {
+    .admin h1 {
+      font-family: 'TH Sarabun New';
+      position: relative;
+      left:2%;
+    }
+    .admin .button {
+        padding: 5px 5px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: rgb(255, 255, 255);
+        background-color: #DC3545;
+        border: none;
+        border-radius: 2px;
+        font-family: 'TH Sarabun New';
+        
+      }
+    
+      .admin .card {
+        width:8%;
+        padding: 10px 5px 5px 10px;
+        border: 1px solid rgb(187, 179, 179);
+        border-radius: 2px;
+        background-color: rgb(255, 255, 255);
+        position:relative;
+        font-family: 'Angsana New';
+        font-size: 30px;
+        left:1%;
+        bottom:-20px;  
+      }
+    
+      .admin .display {
+        font-family: 'Angsana New';
+        font-size: 35px;
+        font-weight: bold;
+      }
+    
+      .admin .button:hover {background-color: #e84545}
+    
+    .admin .button:active {
+      background-color: #fb0400;
+      transform: translateY(4px);
+    }
+    
+    }
+    
+    
+    @media screen and (max-width: 600px) {
+      .admin .button {
+          padding: 5px 5px;
+          font-size: 20px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: rgb(255, 255, 255);
+          background-color: #DC3545;
+          border: none;
+          border-radius: 2px;
+          font-family: 'TH Sarabun New';
+          
+        }
+      
+        .admin .card {
+          width:90%;
+          padding: 15px 15px 15px 15px;
+          border: 1px solid rgb(187, 179, 179);
+          border-radius: 2px;
+          background-color: rgb(255, 255, 255);
+          position:relative;
+          font-family: 'Angsana New';
+          font-size: 18px;
+          left:5%;
+          bottom:-20px;  
+        }
+      
+        .admin .display {
+          font-family: 'Angsana New';
+          font-size: 35px;
+          font-weight: bold;
+        }
+      
+        .admin .button:hover {background-color: #e84545}
+      
+      .admin .button:active {
+        background-color: #fb0400;
+        transform: translateY(4px);
+      }
+      
+      }

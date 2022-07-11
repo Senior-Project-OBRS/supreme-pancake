@@ -1,0 +1,131 @@
+@media screen and (max-width: 2000px) {
+
+ body {
+
+ 
+ background-attachment: fixed;
+ background-image: url('../../../../bus.jpg');
+ background-repeat: no-repeat;
+ }
+ .find {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left:15%;
+}
+ .find .box {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  
+  
+}
+.find h1 {
+  font-size:25px;
+}
+.selectstart {
+ 
+  width:150%;
+  position: absolute;
+}
+.selectstop {
+
+  width:150%;
+  position: absolute;
+}
+.find .box {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  
+  
+}
+
+.find .button {
+  padding: 5px 5px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #DC3545;
+  border: none;
+  border-radius: 2px;
+  font-family: 'TH Sarabun New';
+  
+}
+
+.find .button:hover {background-color: #e84545}
+
+.find .button:active {
+  background-color: #fb0400;
+  transform: translateY(4px);
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+  body {
+  background: rgb(255, 255, 255);
+  }
+  .find {
+   margin: 0;
+   position: relative;
+   bottom:-300px;
+   left:20%;
+ }
+  .find .box {
+   position: relative;
+   transform: translate(-50%, -50%);
+   
+   
+ }
+ .find h1 {
+   font-size:25px;
+ }
+ .selectstart {
+  
+   width:110%;
+   position: absolute;
+ }
+ .selectstop {
+ 
+   width:110%;
+   position: absolute;
+ }
+ .find .box {
+   position: absolute;
+   top: 20%;
+   left: 20%;
+   transform: translate(-50%, -50%);
+   
+   
+ }
+ 
+ .find .button {
+   padding: 5px 5px;
+   font-size: 20px;
+   text-align: center;
+   cursor: pointer;
+   outline: none;
+   color: rgb(255, 255, 255);
+   background-color: #DC3545;
+   border: none;
+   border-radius: 2px;
+   font-family: 'TH Sarabun New';
+   
+ }
+ 
+ .find .button:hover {background-color: #e84545}
+ 
+ .find .button:active {
+   background-color: #fb0400;
+   transform: translateY(4px);
+ }
+ 
+ }
+ 
+ 
+ 

@@ -1,0 +1,177 @@
+@media screen and (max-width: 2000px) {
+#content {
+  height:400px;
+}
+.firstname:focus + br:after { 
+  color:rgb(255, 0, 0);
+  padding: left 5px;
+  content: 'กรุณากรอกชื่อจริงเป็นภาษาไทย'
+}
+
+.firstname:valid + span:after { 
+  content: '✓';
+  color : rgb(0, 0, 0);
+  padding-left: 5px;
+}
+
+
+.lastname:focus + span:after { 
+  color:rgb(255, 0, 0);
+  padding: left 5px;
+  content: 'กรุณากรอกนามสกุลเป็นภาษาไทย'
+}
+
+.lastname:valid + span:after { 
+  content: '✓';
+  color : rgb(0, 0, 0);
+  padding-left: 5px;
+}
+
+.bustablepos {
+  
+    top:11%;
+    left:28%;
+    position: absolute;
+
+}
+
+.addbus h2 {
+  bottom:-20px;
+  left:0%;
+  position: relative;
+}
+.addbus .card {
+  
+  width:23%;
+  padding: 15px 15px 15px 15px;
+  border: 1px solid rgb(187, 179, 179);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  position:relative;
+  font-family: 'Angsana New';
+  font-size: 20px;
+  left:1%;
+  bottom:-20px;  
+}
+
+.addbus button {
+  padding: 10px 10px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #DC3545;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;;
+  
+}
+
+
+.addbus .button:hover {background-color: #ec4242f2}
+
+.addbus .button:active {
+  background-color: #ff0000;
+  transform: translateY(4px);
+}
+.plate:focus + span:after { 
+  color:rgb(255, 0, 0);
+  padding: left 5px;
+  content: 'กรุณากรอกเลขทะเบียนให้ถูกต้อง'
+}
+
+.plate:valid + span:after { 
+  content: '✓';
+  color : rgb(0, 0, 0);
+  padding-left: 5px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  #content {
+    height:400px;
+  }
+  .firstname:focus + br:after { 
+    color:rgb(255, 0, 0);
+    padding: left 5px;
+    content: 'กรุณากรอกชื่อจริงเป็นภาษาไทย'
+  }
+  
+  .firstname:valid + span:after { 
+    content: '✓';
+    color : rgb(0, 0, 0);
+    padding-left: 5px;
+  }
+  
+  
+  .lastname:focus + span:after { 
+    color:rgb(255, 0, 0);
+    padding: left 5px;
+    content: 'กรุณากรอกนามสกุลเป็นภาษาไทย'
+  }
+  
+  .lastname:valid + span:after { 
+    content: '✓';
+    color : rgb(0, 0, 0);
+    padding-left: 5px;
+  }
+  
+  .bustablepos {
+    
+      bottom:-20px;
+      left:1%;
+      position: relative;
+  
+  }
+  
+  .addbus h2 {
+    text-align:left ;
+  }
+  .addbus .card {
+    
+    width:90%;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    font-size: 20px;
+    left:5%;
+    bottom:-20px;  
+  }
+  
+  .addbus button {
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;;
+    
+  }
+  
+  
+  .addbus .button:hover {background-color: #ec4242f2}
+  
+  .addbus .button:active {
+    background-color: #ff0000;
+    transform: translateY(4px);
+  }
+  .plate:focus + span:after { 
+    color:rgb(255, 0, 0);
+    padding: left 5px;
+    content: 'กรุณากรอกเลขทะเบียนให้ถูกต้อง'
+  }
+  
+  .plate:valid + span:after { 
+    content: '✓';
+    color : rgb(0, 0, 0);
+    padding-left: 5px;
+  }
+  }

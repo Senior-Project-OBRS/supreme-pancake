@@ -1,0 +1,128 @@
+@media screen and (max-width: 2000px) {
+
+    .headcuscheck {
+        font-family: 'TH sarabun New';
+        position: relative;
+        left:2%;
+        bottom:-20px;
+      }
+    .ticketch .button {
+        position: absolute;
+        left:42%;
+        top:12%;
+        padding: 5px 5px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: rgb(255, 255, 255);
+        background-color: #DC3545;
+        border: none;
+        border-radius: 2px;
+        font-family: 'TH Sarabun New';
+        
+      }
+    
+      .ticketch .card {
+        width:18%;
+        padding: 15px 15px 15px 15px;
+        border: 1px solid rgb(187, 179, 179);
+        border-radius: 2px;
+        background-color: rgb(255, 255, 255);
+        position:relative;
+        font-family: 'Angsana New';
+        font-size: 30px;
+        left:1%;
+        bottom:-20px;  
+      }
+      .ticketpass .card {
+        width:20%;
+        padding: 15px 15px 15px 15px;
+        border: 1px solid rgb(187, 179, 179);
+        border-radius: 2px;
+        background-color: rgb(255, 255, 255);
+        position:relative;
+        font-family: 'Angsana New';
+        font-size: 30px;
+        left:20%;
+        bottom:158px;  
+      }
+    
+      .ticketch .display {
+        font-family: 'Angsana New';
+        font-size: 35px;
+        font-weight: bold;
+      }
+    
+      .ticketch .button:hover {background-color: #e84545}
+    
+    .ticketch .button:active {
+      background-color: #fb0400;
+      transform: translateY(4px);
+    }
+    
+    }
+@media screen and (max-width: 600px) {
+
+    .headcuscheck {
+            font-family: 'TH sarabun New';
+            position: relative;
+            left:2%;
+            bottom:-20px;
+          }
+        .ticketch .button {
+            position: relative;
+            left:70%;
+            bottom: 150px;
+            padding: 5px 5px;
+            font-size: 15px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: rgb(255, 255, 255);
+            background-color: #DC3545;
+            border: none;
+            border-radius: 2px;
+            font-family: 'TH Sarabun New';
+            
+          }
+        
+          .ticketch .card {
+            width:60%;
+            padding: 15px 15px 15px 15px;
+            border: 1px solid rgb(187, 179, 179);
+            border-radius: 2px;
+            background-color: rgb(255, 255, 255);
+            position:relative;
+            font-family: 'Angsana New';
+            font-size: 20px;
+            left:5%;
+            bottom:-20px;  
+          }
+          .ticketpass .card {
+            width:80%;
+            padding: 15px 15px 15px 15px;
+            border: 1px solid rgb(187, 179, 179);
+            border-radius: 2px;
+            background-color: rgb(255, 255, 255);
+            position:relative;
+            font-family: 'Angsana New';
+            font-size: 20px;
+            left:5%;
+            bottom:-20px;  
+          }
+        
+          .ticketch .display {
+            font-family: 'Angsana New';
+            font-size: 35px;
+            font-weight: bold;
+          }
+        
+          .ticketch .button:hover {background-color: #e84545}
+        
+        .ticketch .button:active {
+          background-color: #fb0400;
+          transform: translateY(4px);
+        }
+        
+        }

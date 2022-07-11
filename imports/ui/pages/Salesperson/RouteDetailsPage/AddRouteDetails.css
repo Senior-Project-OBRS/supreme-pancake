@@ -1,0 +1,116 @@
+@media screen and (max-width: 2000px) {
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.saveroute {
+  
+    top:12%;
+    left:58%;
+    position: absolute;
+}
+
+.selectpos {
+    top:14%;
+    left:42%;
+    position: absolute;
+}
+.tablepos {
+    top:19%;
+    left:28%;
+    position: absolute;
+}
+.headroutedetail{
+  bottom:-20px;
+  left:25%;
+  position: relative;
+}
+
+.headroutedetail h2{
+    font-size:20px;
+}
+.saveroute button {
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    align-items:center;
+  }
+  
+  
+  .saveroute .button:hover {background-color: #ec4242f2}
+  
+  .saveroute .button:active {
+    background-color: #ff0000;
+    transform: translateY(4px);
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .headroutedetail {
+        bottom:-20px;
+        left:0%;
+        position: relative;
+      }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .saveroute {
+      
+        bottom:0px;
+        left:45%;
+        position: relative;
+    }
+    
+    .selectpos {
+        top:10%;
+        left:30%;
+        position: relative;
+    }
+    .tablepos {
+        font-size:8px;
+        bottom: -20px;
+        left:-1%;
+        position: relative;
+    }
+    .headroutedetail{
+        text-align: center;
+    }
+    
+    .headroutedetail h2{
+        font-size:20px;
+    }
+    .saveroute button {
+        padding: 10px 10px;
+        font-size: 18px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: rgb(255, 255, 255);
+        background-color: #DC3545;
+        border: none;
+        border-radius: 2px;
+        display: inline-block;
+        align-items:center;
+      }
+      
+      
+      .saveroute .button:hover {background-color: #ec4242f2}
+      
+      .saveroute .button:active {
+        background-color: #ff0000;
+        transform: translateY(4px);
+      }
+    
+    }

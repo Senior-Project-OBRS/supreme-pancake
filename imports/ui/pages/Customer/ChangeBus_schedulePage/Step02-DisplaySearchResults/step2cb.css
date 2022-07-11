@@ -1,0 +1,87 @@
+
+@media screen and (max-width: 2000px) {
+.changeb2 .button {
+    padding: 5px 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    font-family: 'TH Sarabun New';
+    
+  }
+
+  .changeb2 .card {
+    width:30%;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    font-size: 30px;
+    left:1%;
+    bottom:-20px;  
+  }
+
+  .changeb2 .display {
+    font-family: 'Angsana New';
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .changeb2 .button:hover {background-color: #e84545}
+
+.changeb2 .button:active {
+  background-color: #fb0400;
+  transform: translateY(4px);
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .changeb2 .button {
+      padding: 5px 5px;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: rgb(255, 255, 255);
+      background-color: #DC3545;
+      border: none;
+      border-radius: 2px;
+      font-family: 'TH Sarabun New';
+      
+    }
+  
+    .changeb2 .card {
+      width:90%;
+      padding: 15px 15px 15px 15px;
+      border: 1px solid rgb(187, 179, 179);
+      border-radius: 2px;
+      background-color: rgb(255, 255, 255);
+      position:relative;
+      font-family: 'Angsana New';
+      font-size: 18px;
+      left:5%;
+      bottom:-20px;  
+    }
+  
+    .changeb2 .display {
+      font-family: 'Angsana New';
+      font-size: 35px;
+      font-weight: bold;
+    }
+  
+    .changeb2 .button:hover {background-color: #e84545}
+  
+  .changeb2 .button:active {
+    background-color: #fb0400;
+    transform: translateY(4px);
+  }
+  
+  }

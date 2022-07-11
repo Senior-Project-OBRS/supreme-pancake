@@ -1,0 +1,64 @@
+.modal__box {
+    width: 60%;
+    height: 80;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    padding: 60px 0;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'TH Sarabun New';
+
+}
+
+.modal__content {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'TH Sarabun New';
+}
+
+.amount {
+    color: blue;
+}
+
+.sucess {
+    color: blue;
+}
+
+.failed {
+    color: red;
+}
+
+.pending {
+    color: yellow;
+}
+
+.modal .btn {
+    margin: 120px 5px;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.modals {
+    position:absolute;
+    left:94.75%;
+    top:0%;
+}
+.modals .buttons {
+    width: 50px;
+    height: 50px;
+   
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #b70707;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    
+  }

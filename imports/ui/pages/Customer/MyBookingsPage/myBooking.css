@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700");
+
+
+
+@media screen and (max-width: 2000px) {
+  .myBookingg .card {
+    padding: 30px 30px 30px 30px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    font-family: 'Angsana New';
+    font-size: 30px;
+  
+  }
+  
+  .myBookingg {
+  width: 90%;
+  margin: 0;
+  position:absolute;
+  bottom:1380px;
+  left:50%;
+  }
+  .myBooking .card {
+      width:150%;
+      padding: 30px 30px 30px 30px;
+      border: 1px solid rgb(187, 179, 179);
+      border-radius: 2px;
+      background-color: rgb(255, 255, 255);
+      position:relative;
+      font-family: 'Angsana New';
+      font-size: 25px;
+      left:200px;
+      bottom:-40px;
+   }
+  
+   .myBookings {
+    margin: 0;
+    position: absolute;
+    top: 6%;
+    left:0;
+  }
+  .myBookings .card {
+    width:100%;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    font-size: 30px;
+    left:200px;
+    bottom:-40px;
+  }
+  
+  .myBooking {
+  margin: 0;
+  position: absolute;
+  top: 6%;
+  left:30%;
+  }
+  
+  .myBookings .button {
+    padding: 5px 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    font-family: 'TH Sarabun New';
+    
+  }
+  
+  
+  .myBookings .button:hover {background-color: #e84545}
+  
+  .myBookings .button:active {
+  background-color: #fb0400;
+  transform: translateY(4px);
+  }
+  
+  
+  
+
+   
+  * {
+      box-sizing: border-box;
+  }
+  
+  .ticket-system {
+      max-width: 500px;
+      top:10%;
+      margin: 0;
+      position: absolute;
+      
+  }
+  .ticket-system .top {
+    align-items: center;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .ticket-system .top .printer {
+      width: 80%;
+      height: 20px;
+      border: 5px solid rgba(155, 4, 4, 0.92);
+      border-radius: 10px;
+     
+  }
+  .ticket-system .receipts-wrapper {
+      overflow: hidden;
+      margin-top: -10px;
+      margin-right: 45px;
+      padding-bottom: 10px;
+  }
+  .ticket-system .receipts {
+      display: flex;
+      position: relative;
+      left:15%;
+      flex-direction: column;
+      transform: translateY(-510px);
+      animation-duration:1s;
+      animation-name: print;
+      animation-fill-mode: forwards;
+  }
+  .ticket-system .receipts .receipt {
+      padding: 20px 25px;
+      text-align: left;
+      min-height: 200px;
+      width: 80%;
+      background-color: #fff;
+      border-radius: 10px 10px 20px 20px;
+      box-shadow: 1px 3px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .ticket-system .receipts .receipt .route .plane-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .ticket-system .receipts .receipt .route {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 30px 0;
+  }
+  .ticket-system .receipts .receipt .route h2 {
+      font-weight: 500;
+      font-size: 1.2em;
+      margin: 0;
+  }
+  .ticket-system .receipts .receipt .details {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  .ticket-system .receipts .receipt .details .item {
+      display: flex;
+      flex-direction: column;
+      min-width: 70px;
+  }
+  .ticket-system .receipts .receipt .details .item span {
+      font-size: 0.8em;
+      color: rgba(28, 28, 28, 0.7);
+      font-weight: 500;
+  }
+  .ticket-system .receipts .receipt .details .item h3 {
+      margin-top: 10px;
+      margin-bottom: 25px;
+      font-size : 1.2em;
+  }
+  
+
+  
+  
+  @keyframes print {
+      0% {
+          transform: translateY(-510px);
+      }
+      35% {
+          transform: translateY(-395px);
+      }
+      70% {
+          transform: translateY(-140px);
+      }
+      100% {
+          transform: translateY(0);
+      }
+  }
+  
+  .changebutton .button {
+    padding: 5px 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    font-family: 'TH Sarabun New';
+    
+  }
+  .changebutton2 {
+    
+      top:66.5%;
+      left:15%;
+      position: absolute;;
+  }
+  
+  .changebutton  .button:hover {background-color: #e84545}
+  
+  .changebutton .button:active {
+  background-color: #fb0400;
+  transform: translateY(4px);
+  }
+  
+  
+  .changebutton2 .button {
+    padding: 5px 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    font-family: 'TH Sarabun New';
+    
+  }
+  
+  
+  
+  
+  
+  .changebutton2  .button:hover {background-color: #e84545}
+  
+  .changebutton2 .button:active {
+  background-color: #fb0400;
+  transform: translateY(4px);
+  }
+      
+  }
+@media screen and (max-width: 600px) {
+
+
+  .myBookingg .card {
+    padding: 30px 30px 30px 30px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    font-family: 'Angsana New';
+    font-size: 12px;
+  
+  }
+  
+  .myBookingg {
+  width: 90%;
+  margin: 0;
+  position:relative;
+  bottom:-50px;
+  left:5%;
+  }
+.myBooking .card {
+    padding: 30px 30px 30px 30px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    font-size: 20px;
+ }
+
+ .myBookings {
+   width:95%;
+  margin: 0;
+  position: relative;
+  bottom:-250px;
+  left:-45%;
+}
+.myBookings .card {
+  padding: 30px 30px 30px 30px;
+  border: 1px solid rgb(187, 179, 179);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  position:absolute;
+  font-family: 'Angsana New';
+  font-size: 15px;
+
+}
+
+.myBooking {
+width: 63%;
+margin: 0;
+position:relative;
+bottom:-300px;
+left:-45%;
+}
+
+.myBookings .button {
+  padding: 5px 5px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #DC3545;
+  border: none;
+  border-radius: 2px;
+  font-family: 'TH Sarabun New';
+  
+}
+
+
+.myBookings .button:hover {background-color: #e84545}
+
+.myBookings .button:active {
+background-color: #fb0400;
+transform: translateY(4px);
+}
+
+
+
+  
+
+ 
+* {
+    box-sizing: border-box;
+}
+
+.ticket-system {
+    max-width: 500px;
+    bottom:-250px;
+    margin: 0;
+    position: relative;
+    
+}
+.ticket-system .top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ticket-system .top .printer {
+    left: 10%;
+    width: 90%;
+    height: 20px;
+    border: 5px solid rgb(210, 0, 0);
+    border-radius: 10px;
+   
+}
+.ticket-system .receipts-wrapper {
+    overflow: hidden;
+    margin-top: -10px;
+    margin-right: 25px;
+    padding-bottom: 10px;
+}
+.ticket-system .receipts {
+  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-510px);
+    animation-duration: 1s;
+    animation-delay: 500ms;
+    animation-name: print;
+    animation-fill-mode: forwards;
+}
+.ticket-system .receipts .receipt {
+    padding: 20px 25px;
+    text-align: left;
+    min-height: 200px;
+    width: 95%;
+    background-color: #fff;
+    border-radius: 10px 10px 20px 20px;
+    box-shadow: 1px 3px 8px 3px rgba(0, 0, 0, 0.2);
+}
+.ticket-system .receipts .receipt .route .plane-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.ticket-system .receipts .receipt .route {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+.ticket-system .receipts .receipt .route h2 {
+    font-weight: 500;
+    font-size: 1em;
+    margin: 0;
+}
+.ticket-system .receipts .receipt .details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ticket-system .receipts .receipt .details .item {
+    display: flex;
+    flex-direction: column;
+    min-width: 70px;
+}
+.ticket-system .receipts .receipt .details .item span {
+    font-size: 0.6em;
+    color: rgba(28, 28, 28, 0.7);
+    font-weight: 500;
+}
+.ticket-system .receipts .receipt .details .item h3 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size : 1.2em;
+}
+.ticket-system .receipts .receipt.qr-code {
+  height: 90px;
+  min-height: unset;
+  position: relative;
+  border-radius: 20px 20px 10px 10px;
+  display: flex;
+  align-items: center;
+  display:none;
+}
+.ticket-system .receipts .receipt.qr-code::before {
+  content: '';
+  background: linear-gradient(to right, #fff 50%, #d70505 50%);
+  background-size: 22px 4px, 100% 4px;
+  height: 4px;
+  width: 90%;
+  display: block;
+  left: 0;
+  right: 0;
+  top: -1px;
+  position: absolute;
+  margin: auto;
+}
+.ticket-system .receipts .receipt.qr-code .qr {
+  width: 70px;
+  height: 70px;
+}
+.ticket-system .receipts .receipt.qr-code .description {
+  margin-left: 20px;
+}
+.ticket-system .receipts .receipt.qr-code .description h2 {
+  margin: 0 0 5px 0;
+  font-weight: 500;
+}
+.ticket-system .receipts .receipt.qr-code .description h1 {
+  margin: 0 0 5px 0;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+.ticket-system .receipts .receipt.qr-code .description p {
+  margin: 0;
+  font-weight: 400;
+}
+
+
+@keyframes print {
+    0% {
+        transform: translateY(-510px);
+    }
+    35% {
+        transform: translateY(-395px);
+    }
+    70% {
+        transform: translateY(-140px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.changebutton .button {
+  padding: 5px 5px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #DC3545;
+  border: none;
+  border-radius: 2px;
+  font-family: 'TH Sarabun New';
+  
+}
+.changebutton2 {
+  
+    top:66.5%;
+    left:15%;
+    position: absolute;;
+}
+
+.changebutton  .button:hover {background-color: #e84545}
+
+.changebutton .button:active {
+background-color: #fb0400;
+transform: translateY(4px);
+}
+
+
+.changebutton2 .button {
+  padding: 5px 5px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #DC3545;
+  border: none;
+  border-radius: 2px;
+  font-family: 'TH Sarabun New';
+  
+}
+
+
+
+
+
+.changebutton2  .button:hover {background-color: #e84545}
+
+.changebutton2 .button:active {
+background-color: #fb0400;
+transform: translateY(4px);
+}
+    
+}

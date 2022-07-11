@@ -1,0 +1,299 @@
+@media screen and (max-width: 2000px) {
+
+
+  @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+
+
+  .hp {
+    color:white;
+  }
+
+  .hbk {
+    color:white;
+  }
+
+  
+  .hc {
+    color:white;
+  }
+
+  .fontprom {
+    font-size: 20px;
+    position:absolute;
+    top:55%;
+    left:12%;
+  }
+  .fontprom2 {
+    font-size: 20px;
+    position:absolute;
+    top:55%;
+    left:45%;
+  }
+  .fontprom3 {
+    font-size: 20px;
+    position:absolute;
+    top:55%;
+    left:70%;
+  }
+.fontcontent {
+  font-size: 20px;
+  position:absolute;
+  top:55%;
+  left:6%;
+}
+.fontcontent2 {
+  font-size: 20px;
+  position:absolute;
+  top:55%;
+  left:37%;
+}
+
+.fontmore {
+  font-size: 20px;
+  position:absolute;
+  top:75%;
+  left:20%;
+}
+.fontib2 {
+  font-size: 20px;
+  position:absolute;
+  top:55%;
+  left:34%;
+}
+.fontcontent3 {
+  font-size: 20px;
+  position:absolute;
+  top:55%;
+  left:57%;
+}
+.fontcontent4 {
+  font-size: 20px;
+  position:absolute;
+  top:55%;
+  left:77%;
+}
+.imgcard {
+  padding: 5px;
+  width:300px;
+  position: absolute;
+  bottom:350px;
+  left:5%;
+}
+
+.imgcard2 {
+  padding: 5px;
+  width:280px;
+  position: absolute;
+  bottom:360px;
+  left:32%;
+}
+
+.imgcard3 {
+  padding: 5px;
+  width:280px;
+  position: absolute;
+  bottom:360px;
+  left:53%;
+}
+
+.imgcard4 {
+  padding: 5px;
+  width:280px;
+  position: absolute;
+  bottom:360px;
+  left:76%;
+}
+
+.imgib {
+  padding: 5px;
+  width:300px;
+  position: absolute;
+  bottom:350px;
+  left:5%;
+}
+
+.imgib2 {
+  padding: 5px;
+  width:280px;
+  position: absolute;
+  bottom:360px;
+  left:32%;
+}
+
+.imgib3 {
+  padding: 5px;
+  width:280px;
+  position: absolute;
+  bottom:360px;
+  left:53%;
+}
+
+.imgib4 {
+  padding: 5px;
+  width:280px;
+  position: absolute;
+  bottom:360px;
+  left:76%;
+}
+
+.imgp {
+  padding: 5px;
+  width:300px;
+  position: absolute;
+  bottom:350px;
+  left:12%;
+}
+
+.imgp2 {
+  padding: 5px;
+  width:280px;
+  position: absolute;
+  bottom:360px;
+  left:42%;
+}
+
+.imgp3 {
+  padding: 5px;
+  width:280px;
+  position: absolute;
+  bottom:360px;
+  left:68%;
+}
+.container { 
+  max-width: 1500px; 
+  height: 100%;
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+
+.tabs {
+  position: relative;
+  display: flex;
+  min-height: 800px;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+
+.tabby-tab {
+  flex: 1;
+}
+
+.tabby-tab label {
+  display: block;
+  box-sizing: border-box;
+  /* tab content must clear this */
+    height: 40px;
+ 
+  padding: 10px;
+  text-align: center;
+  background: #8a5757;
+  cursor: pointer;
+  transition: background 0.5s ease;
+  
+}
+
+.tabby-tab label:hover {
+  background: #af0000;
+}
+
+
+.tabby-content {
+  position: absolute;
+  
+  left: 0; bottom: 0; right: 0;
+  /* clear the tab labels */
+    top: 40px; 
+  
+  padding: 20px;
+  border-radius: 0 0 8px 8px;
+  background: #fdfdfd;
+  
+  transition: 
+    opacity 0.8s ease,
+    transform 0.8s ease   ;
+  
+  /* show/hide */
+    opacity: 0;
+    transform: scale(0.1);
+    transform-origin: top left;
+  
+}
+
+
+
+.tabby-tab [type=radio] { display: none; }
+[type=radio]:checked ~ label {
+  background: #b50303;
+  z-index: 2;
+}
+
+[type=radio]:checked ~ label ~ .tabby-content {
+  z-index: 1;
+  
+  /* show/hide */
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+ 
+.card_about {
+  width:90%;
+  padding: 15px 15px 15px 15px;
+  border: 1px solid rgb(187, 179, 179);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  position:relative;
+  font-family: 'Angsana New';
+  font-size: 30px;
+  left:5%;
+  bottom:-20px;  
+    
+  }
+
+  .card_about h1 {
+    text-align: center
+  }
+  .imgface {
+    padding: 5px;
+    width: 70px;
+    position: absolute;
+    bottom:2px;
+    left:45%;
+  }
+
+ 
+  
+}
+
+@media screen and (max-width: 600px) {
+  .card_about {
+    width:90%;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    font-size: 10px;
+    left:5%;
+    bottom:-20px;  
+      
+    }
+  
+    .card_about h1 {
+      text-align: center;
+      font-size:15px;
+    }
+ 
+    .imgface {
+      padding: 5px;
+      width: 50px;
+      position: absolute;
+      bottom:2px;
+      left:45%;
+    }
+   
+  }
+  

@@ -1,0 +1,81 @@
+@media screen and (max-width: 2000px) {
+    
+    .qrsvg {
+        width:100%;
+        
+    }
+    
+    .qrpush .button {
+        position: absolute;
+        left:46.5%;
+        top:12%;
+        padding: 5px 5px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: rgb(255, 255, 255);
+        background-color: #DC3545;
+        border: none;
+        border-radius: 2px;
+        font-family: 'TH Sarabun New';
+        
+      }
+    
+     
+    
+      .qrpush .display {
+        font-family: 'Angsana New';
+        font-size: 35px;
+        font-weight: bold;
+      }
+    
+      .qrpush .button:hover {background-color: #e84545}
+    
+    .qrpush .button:active {
+      background-color: #fb0400;
+      transform: translateY(4px);
+    }
+    
+    }
+    
+@media screen and (max-width: 600px) {
+    
+        .qrsvg {
+            width:100%;
+            
+        }
+        
+        .qrpush .button {
+            position: absolute;
+            left:36%;
+            top:12%;
+            padding: 5px 5px;
+            font-size: 20px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: rgb(255, 255, 255);
+            background-color: #DC3545;
+            border: none;
+            border-radius: 2px;
+            font-family: 'TH Sarabun New';
+            
+          }
+        
+         
+        
+          .qrpush .display {
+            font-family: 'Angsana New';
+            font-size: 35px;
+            font-weight: bold;
+          }
+        
+          .qrpush .button:hover {background-color: #e84545}
+        
+        .qrpush .button:active {
+          background-color: #fb0400;
+          transform: translateY(4px);
+        }
+        
+        }

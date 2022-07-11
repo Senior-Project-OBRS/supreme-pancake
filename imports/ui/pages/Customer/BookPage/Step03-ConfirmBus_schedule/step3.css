@@ -1,0 +1,171 @@
+@media screen and (max-width: 2000px) {
+
+  body {
+  background: rgb(255, 255, 255);
+  }
+  
+  .step3 .card {
+    width:90%;
+    left: 5%;
+    bottom:-20px;
+    
+  }
+
+  .step3 .buttonpos {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left:6%;
+   
+  }
+  .column {
+    float:left;
+    width:30%;
+  }
+  .step3 {
+    left:10%; 
+    width:25%;
+  
+  }
+  .step3 .card {
+   
+    padding: 15px 15px 15px 15px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    font-size: 25px;
+    
+  }
+  
+  .headpage3 {
+    font-family: 'TH sarabun New';
+    position: relative;
+    left:5%;
+    bottom:-20px;
+  }
+  
+  
+  
+  .buttonpos {
+    margin: 0;
+    position: absolute;
+    top: 36%;
+    left:6%;
+   
+  }
+  .step3 .button {
+    padding: 5px 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Angsana New';
+    left:30%;
+  }
+  .book .display {
+    font-family: 'Angsana New';
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .step3 .button:hover {background-color: #e84545}
+  
+  .step3 .button:active {
+  background-color: #fb0400;
+  transform: translateY(4px);
+  }
+ 
+  
+ }
+
+ @media screen and (max-width: 600px) {
+
+  body {
+  background: rgb(255, 255, 255);
+  }
+  
+  .step3 .card {
+    width:380%;
+    left: 5%;
+    
+  }
+
+  .step3 .buttonpos {
+    margin: 0;
+    position: absolute;
+    top: 38%;
+    left:6%;
+   
+  }
+  .column {
+    float:left;
+    width:30%;
+  }
+  .step3 {
+    left:10%; 
+    width:25%;
+  
+  }
+  .step3 .card {
+   
+    padding: 15px 15px 15px 15px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    font-size: 25px;
+    
+  }
+  
+  .head h2 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  .buttonpos {
+    margin: 0;
+    position: absolute;
+    top: 36%;
+    left:6%;
+   
+  }
+  .step3 .button {
+    padding: 5px 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #DC3545;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Angsana New';
+    left:30%;
+  }
+  .book .display {
+    font-family: 'Angsana New';
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .step3 .button:hover {background-color: #e84545}
+  
+  .step3 .button:active {
+  background-color: #fb0400;
+  transform: translateY(4px);
+  }
+ 
+  
+ }
+
+

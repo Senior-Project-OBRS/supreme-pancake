@@ -1,0 +1,384 @@
+@media screen and (max-width: 2000px) {
+ 
+.qrresult {
+  position:absolute;
+  left:35%;
+  top:38%;
+  }
+.step5 .card {
+    width:90%;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    font-size: 20px;
+    left:200px;
+    bottom:0px;
+    
+    
+  }
+  .qrpayment {
+    width:20%;
+    position:relative;
+    top:0%;
+    left:40%;  
+   }
+  .payheader h2 {
+    margin: 0;
+    position: absolute;
+    top: 8%;
+    left:20%;
+   
+  }
+.price .card {
+  width: 85%;
+  padding: 30px 30px 30px 30px;
+  border: 1px solid rgb(187, 179, 179);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  position:relative;
+  font-family: 'Angsana New';
+  font-size: 20px;
+  left:300px;
+  bottom:-95px;
+  
+}
+.vertical-centerc {
+  margin: 0;
+  position: absolute;
+  top: 28%;
+  left:20%;
+ 
+}
+.vertical-centeri {
+  margin: 0;
+  position: absolute;
+  top: 28%;
+  left:32.5%;
+ 
+}
+
+.vertical-centerp {
+  margin: 0;
+  position: absolute;
+  top: 28%;
+  left:46%;
+ 
+}
+
+.payinfo {
+  margin: 0;
+  position: absolute;
+  top: 32%;
+  left:20%;
+  
+}
+
+.paysuccess {
+  margin: 0;
+  position: absolute;
+  top: 36%;
+  left:20%;
+  
+} 
+.headpage5 {
+  font-family: 'TH sarabun New';
+  position: relative;
+  left:20%;
+  bottom:-100px;
+}
+
+
+.vertical-centeri button {
+  padding: 10px 10px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #b70707;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;;
+  
+}
+.vertical-centerp button {
+  padding: 10px 10px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #b70707;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;;
+  
+}
+
+.vertical-centeri .button:hover {background-color: #ec4242f2}
+
+.vertical-centeri .button:active {
+  background-color: #ff0000;
+  transform: translateY(4px);
+}
+
+.vertical-center  head {
+  bottom:-20px;
+  font-family: 'Angsana New';
+  font-size: 15px;
+}
+
+
+.vertical-centerc button {
+    padding: 10px 10px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #b70707;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;;
+    
+  }
+  
+  .vertical-centerc .button:hover {background-color: #ec4242f2}
+  
+  .vertical-centerc .button:active {
+    background-color: #ff0000;
+    transform: translateY(4px);
+  }
+
+  .vertical-center  head {
+    bottom:-20px;
+    font-family: 'Angsana New';
+    font-size: 15px;
+  }
+
+  
+.step5 .column {
+  float:left;
+  width:30%;
+}
+
+.price .column {
+  float:left;
+  width:50%;
+}
+
+
+.step5 button {
+  padding: 10px 10px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #b70707;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;;
+  
+}
+
+.step5 .button:hover {background-color: #ec4242f2}
+
+.step5 .button:active {
+  background-color: #ff0000;
+  transform: translateY(4px);
+}
+
+}
+
+@media screen and (max-width: 600px) {
+ 
+  .headpage5 {
+    font-family: 'TH sarabun New';
+    position: relative;
+    left:10%;
+    bottom:-60px;
+  }
+
+  .qrpayment {
+    margin: 0;
+    position: relative;
+    bottom:-1200px;
+    left:2%; 
+   }
+  
+  .step5 .card {
+      width:300%;
+      padding: 30px 30px 30px 30px;
+      border: 1px solid rgb(187, 179, 179);
+      border-radius: 2px;
+      background-color: rgb(255, 255, 255);
+      position:relative;
+      font-family: 'Angsana New';
+      font-size: 20px;
+      left:20px;
+      bottom:200px;
+      
+      
+    }
+   
+    .payheader h2 {
+      margin: 0;
+      position: absolute;
+      top: 8%;
+      left:20%;
+     
+    }
+  .price .card {
+    width: 90%;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    font-family: 'Angsana New';
+    font-size: 20px;
+    left:20px;
+    bottom:-70px;
+    
+  }
+  .vertical-centerc {
+    margin: 0;
+    position: relative;
+    bottom:-1250px;
+    left:25%;
+   
+  }
+
+  .vertical-centerp {
+    margin: 0;
+    position: relative;
+    bottom:-1250px;
+    left:25%;
+   
+  }
+  .vertical-centeri {
+    margin: 0;
+    position: relative;
+    bottom:-1250px;
+    left:25%;
+   
+  }
+  
+  .payinfo {
+    margin: 0;
+    position: relative;
+    bottom: -1300px;
+    left:5%;
+    font-size: 15px;
+    
+  }
+  
+  .paysuccess {
+    margin: 0;
+    position: relative;
+    bottom:-1200px;
+    left:5%;
+    font-size:12px;
+    
+  }
+
+  .paysuccess h4 {
+    font-size:20px;
+    
+  }
+  
+  
+  
+  .vertical-centeri button {
+    padding: 10px 10px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #b70707;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;;
+    
+  }
+  
+  .vertical-centeri .button:hover {background-color: #ec4242f2}
+  
+  .vertical-centeri .button:active {
+    background-color: #ff0000;
+    transform: translateY(4px);
+  }
+  
+  .vertical-center  head {
+    bottom:-20px;
+    font-family: 'Angsana New';
+    font-size: 15px;
+  }
+  
+  
+  .vertical-centerc button {
+      padding: 10px 10px;
+      font-size: 14px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: rgb(255, 255, 255);
+      background-color: #b70707;
+      border: none;
+      border-radius: 2px;
+      display: inline-block;;
+      
+    }
+    
+    .vertical-centerc .button:hover {background-color: #ec4242f2}
+    
+    .vertical-centerc .button:active {
+      background-color: #ff0000;
+      transform: translateY(4px);
+    }
+  
+    .vertical-center  head {
+      bottom:-20px;
+      font-family: 'Angsana New';
+      font-size: 15px;
+    }
+  
+    
+  .step5 .column {
+    float:left;
+    width:30%;
+  }
+  
+  .price .column {
+    float:left;
+    width:100%;
+  }
+  
+  
+  .step5 button {
+    padding: 10px 10px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #b70707;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;;
+    
+  }
+  
+  .step5 .button:hover {background-color: #ec4242f2}
+  
+  .step5 .button:active {
+    background-color: #ff0000;
+    transform: translateY(4px);
+  }
+  
+  }
