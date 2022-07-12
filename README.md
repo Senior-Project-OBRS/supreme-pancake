@@ -20,7 +20,8 @@
 ## User Interface
 ### Customer
 #### 1. จองตั๋ว
-<video control src="public/about_me/customer/book.mp4" width="700"> <br/>
+![book](https://github.com/Senior-Project-OBRS/supreme-pancake/blob/7b1a0f7a6a234b65b9a2f0b90418a0b3339fbb9a/public/about_me/customer/book.mp4)
+<!-- <video control src="public/about_me/customer/book.mp4" width="700"> <br/> -->
 
 #### 1.1 ชำระโดย Credit/Debit card
 <video control src="public/about_me/customer/book-paywith-creditcard.mp4" width="700"> <br/>
@@ -31,9 +32,9 @@
 <img src="public/about_me/customer/iBanking.jpg" height="500"> <br/>
 
 #### 1.3 ชำระโดย PromptPay
-<video control src="public/about_me/customer/book-paywith-promptPay.mp4" width="700"> <br/>
+<!-- <video control src="public/about_me/customer/book-paywith-promptPay.mp4" width="700"> <br/> -->
 
-เมื่อชำระเงินเรียบร้อยแล้ว จะได้รับ sms <br/>
+ไม่ว่าจะชำระเงินวิธีใด เมื่อชำระเงินเรียบร้อยแล้ว จะได้รับ sms <br/>
 <img src="public/about_me/customer/sms-after-payment.jpg" width="350"> <br/>
 
 #### 2. เลื่อนตั๋ว
@@ -69,12 +70,16 @@
 <img src="public/about_me/salesperson/refund-management.png" width="700"> <br/>
 
 ### Driver
+#### 1. ตารางขับรถ
+<img src="public/about_me/driver/driving-schedule.png" width="450"> <br/>
+
+#### 2. เช็คอินให้ผู้โดยสาร
+<img src="public/about_me/salesperson/checkin-1.png" height="400"> &nbsp;
+<img src="public/about_me/salesperson/checkin-2.png" height="400"> <br/>
 
 ### Admin
-#### 1. แก้ไขบทบาทผู้ใช้
+#### 1. แก้ไขบทบาทผู้ใช้ และ 2. ลบผู้ใช้งาน
 <img src="public/about_me/admin/change-user-role.png" width="450"> <br/>
-
-#### 2. ลบผู้ใช้งาน
 
 ## E2E testing
 lorem
