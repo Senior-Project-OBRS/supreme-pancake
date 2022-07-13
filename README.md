@@ -20,6 +20,7 @@
 ## User Interface
 ### Customer
 #### 1. จองตั๋ว
+คลิกเพื่อเล่นวีดีโอ <br/>
 [<img src="public/about_me/customer/book/book-preview.png" width="50%">](https://youtu.be/g-1cvXG3Aos) <br/>
 
 #### 1.1 ชำระโดย Credit/Debit card
