@@ -37,13 +37,18 @@
 <img src="public/about_me/customer/book/sms-after-payment.jpg" width="350"> <br/>
 
 #### 2. เลื่อนตั๋ว
-
+<img src="public/about_me/customer/change-departure-datetime.gif" width="600"> <br/>
 
 #### 3. ยกเลิกตั๋ว
+เมื่อดำเนินการยกเลิกการจองเรียบร้อยแล้ว ระบบจะส่งคำร้องขอคืนเงินไปยังเจ้าหน้าที่ โดยรายการดังกล่าวจะไปปรากฏในหน้า [ตรวจสอบการคืนเงิน](#7-ตรวจสอบการคืนเงิน) <br/>
+<img src="public/about_me/customer/cancel-booking.gif" width="600"> <br/>
 
 #### 4. แสดง E-ticket
+<img src="public/about_me/customer/showE-ticket.gif" width="600"> <br/>
 
 #### 5. เช็คอิน
+เมื่อกดปุ่มแสดง QR code แล้ว ให้นำไปแสดงต่อพนักงานขายตั๋วโดยสารเพื่อ[เช็คอิน](#6-เช็คอินให้ผู้โดยสาร) <br/>
+<img src="public/about_me/customer/check-in.gif" width="600"> <br/>
 
 ### Salesperson
 #### 1. เพิ่ม-ลบ รถโดยสาร
