@@ -20,22 +20,21 @@
 ## User Interface
 ### Customer
 #### 1. จองตั๋ว
-![book](https://github.com/Senior-Project-OBRS/supreme-pancake/blob/7b1a0f7a6a234b65b9a2f0b90418a0b3339fbb9a/public/about_me/customer/book.mp4)
-<!-- <video control src="public/about_me/customer/book.mp4" width="700"> <br/> -->
+[<img src="public/about_me/customer/book/book-preview.png" width="50%">](https://youtu.be/g-1cvXG3Aos) <br/>
 
 #### 1.1 ชำระโดย Credit/Debit card
-<video control src="public/about_me/customer/book-paywith-creditcard.mp4" width="700"> <br/>
+<img src="public/about_me/customer/book/paywith-credit-card.gif" width="600"> <br/>
 
 #### 1.2 ชำระโดย iBanking
-<video control src="public/about_me/customer/book-paywith-iBanking.mp4" width="700"> <br/>
+<img src="public/about_me/customer/book/paywith-iBanking.gif" width="600"> <br/>
 
-<img src="public/about_me/customer/iBanking.jpg" height="500"> <br/>
+<img src="public/about_me/customer/book/iBanking.jpg" height="500"> <br/>
 
 #### 1.3 ชำระโดย PromptPay
-<!-- <video control src="public/about_me/customer/book-paywith-promptPay.mp4" width="700"> <br/> -->
+<img src="public/about_me/customer/book/paywith-promptPay.gif" width="600"> <br/>
 
-ไม่ว่าจะชำระเงินวิธีใด เมื่อชำระเงินเรียบร้อยแล้ว จะได้รับ sms <br/>
-<img src="public/about_me/customer/sms-after-payment.jpg" width="350"> <br/>
+เมื่อชำระเงินเรียบร้อยแล้ว จะได้รับ sms <br/>
+<img src="public/about_me/customer/book/sms-after-payment.jpg" width="350"> <br/>
 
 #### 2. เลื่อนตั๋ว
 
